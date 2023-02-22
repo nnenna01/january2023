@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8335148b-6c21-4871-9aec-c26be9230a14" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefs/BaseSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefs/JsonPaceStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/RequestBodyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Templates/commentsPayload.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Templates/postPayload.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/feature_files/JsonPlaceHolder.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredDemo/SocialNetworkingPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restfulBookerPosts/GetPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testRunnerPackage/TestRunner.java" afterDir="false" />
-    </list>
+    <list default="true" id="8335148b-6c21-4871-9aec-c26be9230a14" name="Changes" comment="First commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,23 +41,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SocialNetworkingPost.createNewPostWithLateef">
-    <configuration name="GetPost.getPostFromRestfulBooker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="January2023Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restfulBookerPosts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restfulBookerPosts" />
-      <option name="MAIN_CLASS_NAME" value="restfulBookerPosts.GetPost" />
-      <option name="METHOD_NAME" value="getPostFromRestfulBooker" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="SocialNetworkingPost.createNewPostWithLateef" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="January2023Api" />
       <extension name="coverage">
@@ -139,13 +106,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="January2023Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunnerPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunnerPackage" />
+      <option name="MAIN_CLASS_NAME" value="testRunnerPackage.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.SocialNetworkingPost.createNewPostWithLateef" />
         <item itemvalue="JUnit.SocialNetworkingPost.putNewPostUp" />
         <item itemvalue="JUnit.SocialNetworkingPost.fetchAPostFromNet" />
         <item itemvalue="JUnit.SocialNetworkingPost.getSpecificSocialNetworkingPost" />
-        <item itemvalue="JUnit.GetPost.getPostFromRestfulBooker" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +140,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675457044012</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1677075542326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677075542326</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
