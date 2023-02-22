@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8335148b-6c21-4871-9aec-c26be9230a14" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/Test Results - TestRunner.html" afterDir="false" />
-    </list>
+    <list default="true" id="8335148b-6c21-4871-9aec-c26be9230a14" name="Changes" comment="First commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677075855994</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First commit">
+      <created>1677076024155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677076024155</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First commit">
+      <created>1677076055139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677076055139</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
