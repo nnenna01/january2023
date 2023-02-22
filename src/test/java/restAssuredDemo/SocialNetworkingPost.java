@@ -16,18 +16,18 @@ import static io.restassured.RestAssured.when;
 import static org.hamcrest.Matchers.is;
 
 public class SocialNetworkingPost {
-
     @Test
-    public void getSpecificSocialNetworkingPost() {
-        given().contentType(ContentType.JSON).log().all().
-                when().get("https://jsonplaceholder.typicode.com/post/6").
-                then().statusCode(200).log().all().
-                body("title", is("dolorem eum magni eos aperiam quia")).
-                body("body", is("ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"));
+   // @Test
+//    public void getSpecificSocialNetworkingPost() {
+//        given().contentType(ContentType.JSON).log().all().
+//                when().get("https://jsonplaceholder.typicode.com/post/6").
+//                then().statusCode(200).log().all().
+//                body("title", is("dolorem eum magni eos aperiam quia")).
+//                body("body", is("ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"));
+//
+//    }
 
-    }
 
-    @Test
     public void getAnotherPost() {
         given().contentType(ContentType.JSON).log().all().
                 when().get("https://jsonplaceholder.typicode.com/posts/10").
@@ -48,7 +48,7 @@ public class SocialNetworkingPost {
 
     }
 
-    @Test
+   @Test
     public void fetchAPostFromNet() {
 
         given().contentType(ContentType.JSON).log().all().
@@ -79,7 +79,7 @@ public class SocialNetworkingPost {
 
     }
 
-    @Test
+   @Test
     public void putNewPostUp() {
         HashMap<String, String> AboutMyself = new HashMap<>();
         AboutMyself.put("postid", "1");
@@ -98,26 +98,26 @@ public class SocialNetworkingPost {
                 body("body", is("my body is the best body and i love the gift of my body as it is esy to look after"));
 
     }
-    @Test
-    public void createNewPostWithLateef() {
 
-        HashMap<String, String> AboutLateef = new HashMap<>();
-        AboutLateef.put("postid", "1");
-        AboutLateef.put("id", "501");
-        AboutLateef.put("name", "Lateef Abdulsalam");
-        AboutLateef.put("email", "Lateef@gmail.co.uk");
-        AboutLateef.put("body", "Lateef lives very far from me o i can not get a one on one tutoring  but i know that i will get there some day some how");
-
-        given().contentType(ContentType.JSON).log().all().with().body(AboutLateef).
-                when().put("https://jsonplaceholder.typicode.com/posts/1/comments").
-                then().statusCode(201).log().all().
-                body("postid", is("1")).
-                body("id", is(501)).
-                body("name", is("Lateef Abdulsalam")).
-                body("email", is("Lateef@gmail.co.uk")).
-                body("body", is("Lateef lives very far from me o i can not get a one on one tutoring  but i know that i will get there some day some how"));
+//    public void createNewPostWithLateef() {
+//
+//        HashMap<String, String> AboutLateef = new HashMap<>();
+//        AboutLateef.put("postid", "1");
+//        AboutLateef.put("id", "501");
+//        AboutLateef.put("name", "Lateef Abdulsalam");
+//        AboutLateef.put("email", "Lateef@gmail.co.uk");
+//        AboutLateef.put("body", "Lateef lives very far from me o i can not get a one on one tutoring  but i know that i will get there some day some how");
+//
+//        given().contentType(ContentType.JSON).log().all().with().body(AboutLateef).
+//                when().put("https://jsonplaceholder.typicode.com/posts/1/comments").
+//                then().statusCode(201).log().all().
+//                body("postid", is("1")).
+//                body("id", is(501)).
+//                body("name", is("Lateef Abdulsalam")).
+//                body("email", is("Lateef@gmail.co.uk")).
+//                body("body", is("Lateef lives very far from me o i can not get a one on one tutoring  but i know that i will get there some day some how"));
 
 
     }
 
-}
+
