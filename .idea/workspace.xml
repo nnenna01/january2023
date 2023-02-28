@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8335148b-6c21-4871-9aec-c26be9230a14" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feature_files/Demofile.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.testRunnerPackage in January2023Api">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="GetPost.getAnotherPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="January2023Api" />
       <extension name="coverage">
@@ -91,18 +92,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocialNetworkingPost.getAnotherPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="January2023Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restAssuredDemo.*" />
+          <option name="PATTERN" value="testRunnerPackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restAssuredDemo" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredDemo.SocialNetworkingPost" />
-      <option name="METHOD_NAME" value="getAnotherPost" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="testRunnerPackage" />
+      <option name="MAIN_CLASS_NAME" value="testRunnerPackage.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.testRunnerPackage in January2023Api" />
         <item itemvalue="JUnit.GetPost.getAnotherPost" />
         <item itemvalue="JUnit.GetPost.getPostFromRestfulBooker" />
         <item itemvalue="JUnit.SocialNetworkingPost" />
-        <item itemvalue="JUnit.SocialNetworkingPost.getAnotherPost" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677085488322</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="First commit">
+      <created>1677086490826</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677086490826</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
