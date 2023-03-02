@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8335148b-6c21-4871-9aec-c26be9230a14" name="Changes" comment="Adding a new feature file and a new Class" />
+    <list default="true" id="8335148b-6c21-4871-9aec-c26be9230a14" name="Changes" comment="Adding a new feature file and a new Class">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="NnennaUserStoryA" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/LateefsWorkSpace/February2023_UI/pom.xml&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -51,12 +55,12 @@
       <module name="January2023Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restfulBookerPosts.*" />
+          <option name="PATTERN" value="restfulBookerPosts1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restfulBookerPosts" />
-      <option name="MAIN_CLASS_NAME" value="restfulBookerPosts.GetPost" />
+      <option name="MAIN_CLASS_NAME" value="restfulBookerPosts1.GetPost" />
       <option name="METHOD_NAME" value="getAnotherPost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -67,12 +71,12 @@
       <module name="January2023Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restfulBookerPosts.*" />
+          <option name="PATTERN" value="restfulBookerPosts1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restfulBookerPosts" />
-      <option name="MAIN_CLASS_NAME" value="restfulBookerPosts.GetPost" />
+      <option name="MAIN_CLASS_NAME" value="restfulBookerPosts1.GetPost" />
       <option name="METHOD_NAME" value="getPostFromRestfulBooker" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -233,7 +237,35 @@
       <option name="project" value="LOCAL" />
       <updated>1677595276947</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adding a new feature file and a new Class">
+      <created>1677595649595</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677595649595</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adding a new feature file and a new Class">
+      <created>1677595832494</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677595832494</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adding a new feature file and a new Class">
+      <created>1677689387377</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677689387377</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Adding a new feature file and a new Class">
+      <created>1677689519148</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677689519148</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
